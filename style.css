@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #4682B4;
+}
+
+.container {
+    width: 80vmin;
+    padding: 50px 30px;
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stats {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.stats span {
+    font-weight: 600;
+}
+
+#quote {
+    text-align: justify;
+    margin: 40px 0 20px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid #4682B4;
+}
+
+button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #3b6e98;
+}
+
+.result {
+    display: none;
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #4682B4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper p {
+    font-size: 17px;
+}
+
+.wrapper span {
+    font-weight: 600;
+}
+
+.success {
+    color: #9ACD32;
+}
+
+.failure {
+    color: #ED1C24;
+}
